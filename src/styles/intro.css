@@ -1,0 +1,38 @@
+
+.intro-container{
+    width: auto;
+    min-height: 300px;
+    min-width: 80vw;
+}
+.text{
+    display: block;
+    max-width: 100%;
+    transition: transform 280ms ease-out 5ms;
+    bottom: -70px;
+    opacity: 1;
+    transform-style: preserve-3d
+}
+.text h1{
+    text-transform: uppercase;
+    font-size: 7.3vw;
+    font-weight: 900;
+    line-height: .9em;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.animated-text{
+    color: #e6e2de;
+    text-transform: uppercase;
+    background-color: #333;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: Switzer, sans-serif;
+    font-size: 7vw;
+    font-weight: 900;
+    line-height: .9em;
+}
+
+.inline div,h1{
+    display:inline-block
+}

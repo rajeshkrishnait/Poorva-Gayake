@@ -1,0 +1,28 @@
+.sidebar{
+    height: 100vh;
+    min-width: 100px;
+    border: 1px #000;
+    border-right: 1px solid #333;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 24px;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+
+.up-button {
+    min-height: 56px;
+    min-width: 64px;
+    background-color: #333;
+    border: 1px solid #333;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:-50px;
+    position:relative;
+}
