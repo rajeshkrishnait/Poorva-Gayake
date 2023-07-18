@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Poorva-Gayake/static/css/main.b54dd289.css",
+    "main.js": "/Poorva-Gayake/static/js/main.c8fea821.js",
+    "static/js/787.c64a46ba.chunk.js": "/Poorva-Gayake/static/js/787.c64a46ba.chunk.js",
+    "index.html": "/Poorva-Gayake/index.html",
+    "main.b54dd289.css.map": "/Poorva-Gayake/static/css/main.b54dd289.css.map",
+    "main.c8fea821.js.map": "/Poorva-Gayake/static/js/main.c8fea821.js.map",
+    "787.c64a46ba.chunk.js.map": "/Poorva-Gayake/static/js/787.c64a46ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b54dd289.css",
+    "static/js/main.c8fea821.js"
+  ]
+}
