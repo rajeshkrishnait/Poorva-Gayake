@@ -1,36 +1,15 @@
-import React,{useEffect} from 'react'
+import React,{useEffect, useState} from 'react'
 import '../styles/projects.css'
 import ViewButton from './ViewButton.js';
 
 const Projects = (props) => {
-    const elementIsVisibleInViewport = (el, partiallyVisible = false) => {
-        const { top, left, bottom, right } = el.getBoundingClientRect();
-        const { innerHeight, innerWidth } = window;
-        return partiallyVisible
-          ? ((top > 0 && top < innerHeight) ||
-              (bottom > 0 && bottom < innerHeight)) &&
-              ((left > 0 && left < innerWidth) || (right > 0 && right < innerWidth))
-          : top >= 0 && left >= 0 && bottom <= innerHeight && right <= innerWidth;
-      };
-    let alignProject = props.align=="left"? "projects-container":"projects-container left";
+    
+    let alignProject = props.align=="left"? "projects-container animate":"projects-container left animate";
     let textAlignment = props.align!=="left"?"thumbnail-title-wrapper":"thumbnail-title-wrapper right"
-    useEffect(()=>{
-
-        setTimeout(()=>{
-            let element = document.getElementById('test')
-            document.addEventListener("scroll",()=>{
-                console.log(element)
-                if(elementIsVisibleInViewport(element,true)){
-                    console.log(true)
-                    document.getElementById('test').className += " " + 'test';
-                }
-        },2000)
-        
-    })
-    },[])
+    
     return (
         <React.Fragment>
-            <div id="test"className={alignProject}>
+            <div className={alignProject}>
                 <div class="thumbnail-gap"></div>
                 <div class="thumbnail-wrapper">
                     <div class="thumbnail-image-wrapper bell">

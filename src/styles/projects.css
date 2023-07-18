@@ -1,13 +1,4 @@
-@keyframes fadeInAnimation {
-    0% {
-        transform: translateY(-50px);
-        opacity:0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity:1;     
-    }
-}
+
 .projects-container{
     width: 100%;
     max-width: 80vw;
@@ -15,9 +6,7 @@
     margin-bottom: 100px;
     display: flex;
 }
-.test{
-    animation: 1s ease-out 0s 1 fadeInAnimation;
-}
+
 .thumbnail-gap{
     min-width: 15vw;
 }
